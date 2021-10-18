@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopRenter Test</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/5be98fef63.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+
+    <nav class="navbar">
+      <div class="navbar-container-top">
+        <div class="navbar-left">
+          <span id="phone">09 87 654 3210</span>
+
+          <div class="info">
+            <a href="#contact" id="navbar-contact">Kapcsolat</a>
+            <span class="separator">&#124;</span>
+            <a href="#aboutus" id="navbar-aboutus">Rólunk</a>
+            <span class="separator">&#124;</span>
+            <div class="dropdown">
+              <button onclick="openDropDown()" class="dropbtn">
+                Fizetés, szállítás
+                <i class="arrow"></i>
+              </button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="#payment" id="payment">Fizetés</a>
+                <a href="#delivery" id="delivery">Szállítás</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-center">
+          <span id="title1">TESZT</span><span id="title2">TÉMA</span>
+        </div>
+
+        <div class="navbar-right">
+          <div class="search">
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="keresés..."
+            />
+          </div>
+
+          <a href="#profile"
+            ><img src="./assets/profile.svg" alt="profile image"
+          /></a>
+          <a href="#favourites"
+            ><img src="./assets/heart.svg" alt="favourites image"
+          /></a>
+          <a href="#cart"><img src="./assets/bag.svg" alt="bag image" /></a>
+        </div>
+
+        <!-- <div class="navbar-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div> -->
+      </div>
+      <div class="navbar-container-bottom">
+        <a href="#delivery">ARCÁPOLÁS</a>
+        <a href="#delivery">TESTÁPOLÁS</a>
+        <a href="#delivery">HAJÁPOLÁS</a>
+        <a href="#delivery">SMINK</a>
+        <a href="#delivery">BŐRÁPOLÁS</a>
+        <a href="#delivery">ÚJDONSÁGOK</a>
+        <a href="#delivery">FÉRFIAKNAK</a>
+        <a href="#delivery">BABA-MAMA</a>
+        <a href="#delivery">AJÁNDÉK ÖTLETEK</a>
+        <a href="#delivery">MÁRKÁK</a>
+        <a href="#delivery">AKCIÓK</a>
+      </div>
+    </nav>
+    <script src="app.js"></script>
+  </body>
+</html>
