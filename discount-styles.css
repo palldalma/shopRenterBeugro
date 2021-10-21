@@ -1,0 +1,152 @@
+.discount-container {
+  display: flex;
+  justify-content: center;
+  height: 974px;
+
+  width: 1780px;
+  margin: 70px;
+  position: relative;
+  margin-top: 140px;
+}
+
+.discount-header {
+  position: absolute;
+  font-size: 28px;
+  line-height: 26px;
+  width: 251px;
+}
+
+.discount-products-container {
+  position: absolute;
+  top: 104px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 60px;
+}
+
+.discounted-product {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.discounted-product-header {
+  align-self: center;
+  width: 340px;
+  height: 52px;
+  font-size: 18px;
+  line-height: 26px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  color: #212121;
+}
+
+.rectangle {
+  width: 50px;
+  height: 50px;
+  align-self: flex-end;
+  position: absolute;
+}
+
+.black-heart-btn {
+  width: 19.19px;
+  height: 16px;
+  align-self: flex-end;
+  position: absolute;
+  top: 7px;
+  margin-right: 5.81px;
+}
+
+.discounted-product-description {
+  align-self: center;
+  color: #a1a1a1;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  width: 340px;
+  height: 74px;
+  margin-top: 13px;
+}
+
+.star-container {
+  display: flex;
+  align-self: center;
+  margin-top: 19px;
+  align-items: center;
+}
+
+.star {
+  width: 20px;
+  height: 19.13px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.ratings {
+  color: #a1a1a1;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-left: 13px;
+  width: 20px;
+  height: 28px;
+  text-align: center;
+}
+
+.price-container {
+  width: 157px;
+  height: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  margin-top: 25.87px;
+}
+
+.crossed-price {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  text-decoration: line-through;
+  color: #a1a1a1;
+}
+
+.discounted-price {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.toCart-btn {
+  align-self: center;
+  width: 160px;
+  height: 50px;
+  background-color: #212121;
+  margin-top: 30px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500px;
+  line-height: 17.5px;
+  color: #ffffff;
+}
+
+.to-discounts-btn {
+  width: 300px;
+  height: 50px;
+  color: #212121;
+  border: 1px solid #212121;
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  background-color: #ffffff;
+}
+
+#to-discounts-btn-image {
+  width: 9.35px;
+  height: 17px;
+  margin-left: 19px;
+}

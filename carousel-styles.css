@@ -1,0 +1,174 @@
+.info-line1 {
+  display: flex;
+  top: 160px;
+  height: 60px;
+  justify-content: center;
+  font-size: 14px;
+  align-items: center;
+  color: #f67da1;
+}
+
+.glass {
+  size: 26px;
+  margin-right: 17px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+  height: 700px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 335px;
+  width: 30px;
+  height: 17.44px;
+  color: #212121;
+  transition: 0.6s ease;
+}
+
+.prev {
+  left: 20.56px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 20.56px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #212121;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.carousel-images {
+  display: flex;
+}
+
+.left-picture {
+  background: url("https://i.stack.imgur.com/kqa1P.jpg") top left no-repeat;
+  -webkit-mask-image: -webkit-linear-gradient(
+    right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1)
+  );
+  background-size: contain;
+  background-position: center center;
+}
+
+.right-picture {
+  background: url("https://i.stack.imgur.com/UvGLY.jpg") top right no-repeat;
+  -webkit-mask-image: -webkit-linear-gradient(
+    right,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0)
+  );
+  background-size: contain;
+  background-position: center center;
+}
+
+#details-title {
+  position: absolute;
+  font-size: 130px;
+  font-weight: 700;
+  line-height: 130px;
+  width: 441px;
+  height: 130px;
+  top: 253px;
+  left: 177px;
+}
+
+#details-text {
+  position: absolute;
+  width: 580px;
+  font-size: 24px;
+  color: #ba8b88;
+  height: 74px;
+  left: 185px;
+  top: 400px;
+  line-height: 34px;
+}
+
+#details-btn {
+  position: absolute;
+  background-color: #212121;
+  color: #ffffff;
+  width: 210px;
+  height: 50px;
+  font-size: 14px;
+  left: 185px;
+  top: 506px;
+}
+
+#details-btn-image {
+  margin-left: 17px;
+}

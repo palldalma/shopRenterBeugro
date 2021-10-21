@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+.page {
+  width: 1920px;
+}
+
+.tile-container {
+  margin: 70px;
+  height: 820px;
+  width: 1780px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.tile {
+  background-size: cover;
+  background-position: center center;
+  /* margin: 9.5px; */
+  color: #212121;
+  font-family: Quicksand;
+  font-size: 38px;
+}
+
+.tile1 {
+  background-image: url(./assets/yellow.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.heading1 {
+  position: absolute;
+  top: 15%;
+  left: 30px;
+}
+
+.tile2 {
+  background-image: url(./assets/purple.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.heading2 {
+  position: absolute;
+  top: 15%;
+  left: 30px;
+  color: #ffffff;
+}
+
+.tile3 {
+  background-image: url(./assets/white.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.heading3 {
+  position: absolute;
+  top: 15%;
+  right: 30px;
+}
+
+.tile4 {
+  background-image: url(./assets/pink.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.heading4 {
+  position: absolute;
+  top: 15%;
+  left: 30px;
+}
+
+.tile5 {
+  background-image: url(./assets/green.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.heading5 {
+  position: absolute;
+  top: 15%;
+  right: 30px;
+  color: #ffffff;
+}
+.tile6 {
+  background-image: url(./assets/blue.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.heading6 {
+  position: absolute;
+  top: 15%;
+  right: 30px;
+}
+
+.first-row {
+  display: grid;
+  grid-template-areas: "a b c";
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.second-row {
+  display: grid;
+  grid-template-areas: "a b c";
+  grid-template-columns: 1fr 1fr 2fr;
+}
