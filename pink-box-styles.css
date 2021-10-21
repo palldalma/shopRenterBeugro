@@ -1,0 +1,49 @@
+.pink-box {
+  width: 1780px;
+  height: 500px;
+  background-image: url(./assets/composition-with-air-humidifier-bath-accessories-blurred-background.jpg);
+  background-color: rgba(246, 125, 161, 0.9);
+  background-blend-mode: multiply;
+  margin: auto;
+  background-position: center center;
+  background-size: cover;
+  margin-top: 130px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.pink-box-header {
+  position: absolute;
+  margin-top: 168px;
+  font-size: 48px;
+  line-height: 56px;
+  color: #212121;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.pink-box-description {
+  position: absolute;
+  margin-top: 240px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #212121;
+  font-weight: 500;
+  color: #763648;
+}
+
+.view {
+  width: 210px;
+  height: 50px;
+  position: absolute;
+  top: 306px;
+  border: none;
+  background-color: #212121;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+#view-btn {
+  margin-left: 17px;
+}
