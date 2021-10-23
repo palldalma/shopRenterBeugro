@@ -1,22 +1,33 @@
-@media screen and (max-width: 1920px) {
-  .discount-container {
-    display: flex;
-    justify-content: center;
-    height: 974px;
+.discount-container {
+  display: flex;
+  justify-content: center;
+  height: 974px;
+  position: relative;
+  margin-top: 140px;
+}
 
+@media screen and (min-width: 1920px) {
+  .discount-container {
     width: 1780px;
     margin: 70px;
-    position: relative;
-    margin-top: 140px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .discount-container {
     margin: 0;
-    margin-top: 100px;
+    margin-top: 80px;
     width: 100vw;
-    height: 1750px;
+    height: 1700px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .discount-container {
+    margin: 0;
+    margin-top: 60px;
+    width: 100vw;
+    height: 3200px;
   }
 }
 
@@ -42,6 +53,19 @@
     row-gap: 60px;
     padding-right: 3%;
     padding-left: 3%;
+    column-gap: 10px;
+    top: 52px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .discount-products-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1f 1fr 1f 1fr;
+    row-gap: 60px;
+    padding-right: 3%;
+    padding-left: 3%;
+    align-self: center;
   }
 }
 
@@ -49,6 +73,19 @@
   width: 400px;
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .discounted-product {
+    width: 50vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .discounted-product {
+    width: 100vw;
+  }
 }
 
 .discounted-product-header {
@@ -166,11 +203,11 @@
   background-color: #ffffff;
 }
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 375px) {
   .to-discounts-btn {
-    margin-top: 85px;
+    margin-top: 0px;
   }
-} */
+}
 
 #to-discounts-btn-image {
   width: 9.35px;
