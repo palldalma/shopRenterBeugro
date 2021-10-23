@@ -16,3 +16,11 @@ window.onclick = function (event) {
     }
   }
 };
+
+const hamburger = document.getElementById("hamburger");
+const menu = document.getElementById("navbar-container-bottom");
+
+hamburger.addEventListener("click", (e) => {
+  e.preventDefault();
+  menu.classList.toggle("show");
+});

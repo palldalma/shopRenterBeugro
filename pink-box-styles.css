@@ -7,10 +7,17 @@
   margin: auto;
   background-position: center center;
   background-size: cover;
-  margin-top: 130px;
+  /* margin-top: 130px; */
   position: relative;
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 1920px) {
+  .pink-box {
+    width: 100vw;
+    margin-top: 130px;
+  }
 }
 
 .pink-box-header {

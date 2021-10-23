@@ -1,11 +1,13 @@
-.info-line1 {
-  display: flex;
-  top: 160px;
-  height: 60px;
-  justify-content: center;
-  font-size: 14px;
-  align-items: center;
-  color: #f67da1;
+@media screen and (max-width: 1920px) {
+  .info-line1 {
+    display: flex;
+    top: 160px;
+    height: 60px;
+    justify-content: center;
+    font-size: 14px;
+    align-items: center;
+    color: #f67da1;
+  }
 }
 
 .glass {
@@ -13,15 +15,20 @@
   margin-right: 17px;
 }
 
-* {
-  box-sizing: border-box;
+/* Slideshow container */
+@media screen and (max-width: 1920px) {
+  .slideshow-container {
+    position: relative;
+    margin: auto;
+    height: 700px;
+    overflow-y: hidden;
+  }
 }
 
-/* Slideshow container */
-.slideshow-container {
-  position: relative;
-  margin: auto;
-  height: 700px;
+@media screen and (max-width: 1024px) {
+  .slideshow-container {
+    height: fit-content;
+  }
 }
 
 /* Hide the images by default */
@@ -39,6 +46,13 @@
   height: 17.44px;
   color: #212121;
   transition: 0.6s ease;
+}
+
+@media screen and (max-width: 1024px) {
+  .prev,
+  .next {
+    top: 150px;
+  }
 }
 
 .prev {
@@ -118,6 +132,12 @@
   background-position: center center;
 }
 
+@media screen and (max-width: 1024px) {
+  .left-picture {
+    display: hidden;
+  }
+}
+
 .right-picture {
   background: url("https://i.stack.imgur.com/UvGLY.jpg") top right no-repeat;
   -webkit-mask-image: -webkit-linear-gradient(
@@ -127,6 +147,13 @@
   );
   background-size: contain;
   background-position: center center;
+}
+
+@media screen and (max-width: 1024px) {
+  .right-picture {
+    width: 100vw;
+    overflow-y: hidden;
+  }
 }
 
 #details-title {
@@ -140,6 +167,13 @@
   left: 177px;
 }
 
+@media screen and (max-width: 1024px) {
+  #details-title {
+    font-size: 60px;
+    top: 40px;
+  }
+}
+
 #details-text {
   position: absolute;
   width: 580px;
@@ -149,6 +183,12 @@
   left: 185px;
   top: 400px;
   line-height: 34px;
+}
+
+@media screen and (max-width: 1024px) {
+  #details-text {
+    top: 150px;
+  }
 }
 
 #details-btn {
@@ -162,6 +202,18 @@
   top: 506px;
 }
 
+@media screen and (max-width: 1024px) {
+  #details-btn {
+    top: 250px;
+  }
+}
+
 #details-btn-image {
   margin-left: 17px;
+}
+
+@media screen and (max-width: 1024px) {
+  .details-container {
+    height: fit-content;
+  }
 }

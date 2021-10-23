@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 
 .page {
-  width: 1920px;
+  width: 100vw;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .tile-container {
@@ -10,6 +12,12 @@
   width: 1780px;
   display: grid;
   grid-template-rows: 1fr 1fr;
+}
+
+@media screen and (max-width: 1024px) {
+  .tile-container {
+    margin: 0;
+  }
 }
 
 .tile {
@@ -112,6 +120,14 @@
   grid-template-areas: "a b c";
   grid-template-columns: 2fr 1fr 1fr;
 }
+
+@media screen and (max-width: 1024px) {
+  .first-row,
+  .second-row {
+    width: 100vw;
+  }
+}
+
 .second-row {
   display: grid;
   grid-template-areas: "a b c";
