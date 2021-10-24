@@ -1,15 +1,17 @@
 .discount-container {
   display: flex;
   justify-content: center;
-  height: 974px;
+  height: 1800px;
   position: relative;
-  margin-top: 140px;
+  margin-top: 146px;
 }
 
 @media screen and (min-width: 1920px) {
   .discount-container {
     width: 1780px;
-    margin: 70px;
+    margin-right: 70px;
+    margin-left: 70px;
+    height: 974px;
   }
 }
 
@@ -18,16 +20,16 @@
     margin: 0;
     margin-top: 80px;
     width: 100vw;
-    height: 1700px;
+    height: 160vh;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
   .discount-container {
     margin: 0;
     margin-top: 60px;
     width: 100vw;
-    height: 3200px;
+    height: 300vh;
   }
 }
 
@@ -41,9 +43,24 @@
 .discount-products-container {
   position: absolute;
   top: 104px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   column-gap: 60px;
+  display: grid;
+}
+
+@media screen and (min-width: 1920px) {
+  .discount-products-container {
+    top: 104px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 60px;
+  }
+}
+
+@media screen and (max-width: 1919px) {
+  .discount-products-container {
+    row-gap: 60px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -51,14 +68,12 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1f 1fr;
     row-gap: 60px;
-    padding-right: 3%;
-    padding-left: 3%;
-    column-gap: 10px;
+    column-gap: 6px;
     top: 52px;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 678px) {
   .discount-products-container {
     grid-template-columns: 1fr;
     grid-template-rows: 1f 1fr 1f 1fr;
@@ -70,15 +85,16 @@
 }
 
 .discounted-product {
-  width: 400px;
+  width: 50vw;
+  max-width: 400px;
   display: flex;
   flex-direction: column;
   position: relative;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1920px) {
   .discounted-product {
-    width: 50vw;
+    width: 400px;
   }
 }
 
@@ -195,17 +211,30 @@
   height: 50px;
   color: #212121;
   border: 1px solid #212121;
-  align-self: flex-end;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 500;
   background-color: #ffffff;
+  margin: auto;
+  position: absolute;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 1920px) {
   .to-discounts-btn {
-    margin-top: 0px;
+    top: 915px;
+  }
+}
+
+@media screen and (max-width: 1919px) {
+  .to-discounts-btn {
+    bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .to-discounts-btn {
+    display: none;
   }
 }
 

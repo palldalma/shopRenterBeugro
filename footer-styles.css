@@ -8,7 +8,7 @@ footer {
 
 @media screen and (max-width: 1024px) {
   footer {
-    height: fit-content;
+    height: auto;
     padding-bottom: 2rem;
     margin-top: 3rem;
   }
@@ -173,20 +173,13 @@ footer {
 }
 
 .logos {
+  position: absolute;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-@media screen and (max-width: 1024px) {
-  .logos {
-    width: 100vw;
-    height: fit-content;
-    /* background-color: tomato; */
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
+  width: 100%;
+  position: absolute;
 }
 
 .logo-container {
@@ -199,7 +192,7 @@ footer {
 
 @media screen and (max-width: 1024px) {
   .logo-container {
-    height: fit-content;
+    height: 100%;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
