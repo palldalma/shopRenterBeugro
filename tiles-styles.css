@@ -11,23 +11,25 @@
   height: 820px;
   display: grid;
   grid-template-rows: 1fr 1fr;
+  width: 100vw;
+  box-sizing: border-box;
+  margin: auto;
 }
 
 @media screen and (min-width: 1920px) {
   .tile-container {
-    margin: 70px;
-    height: 820px;
+    /* height: 820px; */
     width: 1780px;
     display: grid;
     grid-template-rows: 1fr 1fr;
   }
 }
 
-@media screen and (max-width: 1919px) {
+/* @media screen and (max-width: 1919px) {
   .tile-container {
     margin: 0;
   }
-}
+} */
 
 @media screen and (max-width: 1024px) {
   .tile-container {

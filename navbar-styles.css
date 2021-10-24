@@ -12,7 +12,7 @@
   height: 160px;
   color: #ffffff;
   box-sizing: border-box;
-  width: 1920px;
+  width: 100vw;
 }
 @media screen and (max-width: 1920px) {
   .navbar {
@@ -121,6 +121,7 @@
 @media screen and (max-width: 1024px) {
   #profile-icon {
     margin-top: 11px;
+    margin-right: 10px;
   }
 }
 
@@ -132,6 +133,7 @@
 @media screen and (max-width: 1024px) {
   #favourites-icon {
     margin-top: 11px;
+    margin-right: 10px;
   }
 }
 
@@ -164,7 +166,7 @@
   border: none;
   border-bottom: #5c5c5c 1px solid;
   height: 27px;
-  width: 12.5vw;
+  width: 240px;
   margin-right: 42.82px;
   margin-top: 46px;
   line-height: 17px;
@@ -174,17 +176,16 @@
   font-weight: 500;
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (max-width: 1024px) {
   #search {
-    width: 240px;
+    margin-left: 34px;
+    margin-top: 11px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 450px) {
   #search {
-    width: 240px;
-    margin-left: 34px;
-    margin-top: 11px;
+    display: none;
   }
 }
 

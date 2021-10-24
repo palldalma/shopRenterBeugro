@@ -1,6 +1,6 @@
 footer {
   background-color: #212121;
-  width: 1920px;
+  width: 100vw;
   height: 460px;
   padding-top: 41px;
   margin-top: 100px;
@@ -178,7 +178,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   position: absolute;
 }
 
