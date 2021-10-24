@@ -1,9 +1,7 @@
 .pink-box {
   width: 100vw;
   height: 500px;
-  background-image: url(./assets/composition-with-air-humidifier-bath-accessories-blurred-background.jpg);
-  background-color: rgba(246, 125, 161, 0.9);
-  background-blend-mode: multiply;
+  background-image: url(./assets/pink-plant.png);
   margin: auto;
   background-position: center center;
   background-size: cover;

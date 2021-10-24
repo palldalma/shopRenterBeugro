@@ -95,7 +95,6 @@
   line-height: 45px;
   width: 203px;
   height: 45px;
-
   margin-top: 30px;
 }
 
@@ -172,8 +171,9 @@
   line-height: 17px;
   font-size: 14px;
   letter-spacing: 0.05em;
-  color: #767676;
+  color: #f1f1f1;
   font-weight: 500;
+  outline: n;
 }
 
 @media screen and (max-width: 1024px) {
@@ -190,8 +190,9 @@
 }
 
 .navbar-container-bottom {
-  display: grid;
-  grid-template-columns: repeat(11, 1fr);
+  display: flex;
+  justify-content: space-between;
+  width: 1300px;
   font-size: 16px;
   justify-self: center;
   justify-items: center;
@@ -199,6 +200,7 @@
 
 @media screen and (max-width: 1024px) {
   .navbar-container-bottom {
+    width: unset;
     display: none;
   }
 }
@@ -284,6 +286,7 @@ a:active {
 
 @media screen and (max-width: 1024px) {
   .hamburger {
+    align-self: center;
     display: flex;
     background-color: transparent;
     border: 0;

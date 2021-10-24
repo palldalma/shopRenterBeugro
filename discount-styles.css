@@ -6,7 +6,6 @@
 .discount-container {
   display: flex;
   justify-content: center;
-  /* height: 1800px; */
   margin: auto;
   position: relative;
   margin-top: 146px;
@@ -225,19 +224,13 @@
 
 @media screen and (min-width: 1920px) {
   .to-discounts-btn {
-    top: 915px;
+    top: 926px;
   }
 }
 
 @media screen and (max-width: 1919px) {
   .to-discounts-btn {
     bottom: 0px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .to-discounts-btn {
-    display: none;
   }
 }
 
