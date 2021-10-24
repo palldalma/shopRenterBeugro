@@ -154,6 +154,11 @@ footer {
   background-position-x: 43.86px;
   background-position-y: 13.06px;
   line-height: 15px;
+  background-color: #212121;
+}
+
+option {
+  background-color: #212121;
 }
 
 .footerinfo6 {
